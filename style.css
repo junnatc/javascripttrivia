@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: 'barbie_font_betamediumitalic';
+    src: url('barbie_font_beta-webfont.woff2') format('woff2'),
+         url('barbie_font_beta-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+
+	background-image: url('nicki.gif');
+	background-size: cover;
+}
+.logo {
+	margin: 10px;
+	padding-top: 80px;
+	text-align: center;
+}
+.panel{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.question-container{
+    margin: 10px;
+    padding: 5px;
+    width: 80vw;
+    height: 10vh;
+    font-size: 40pt;
+    text-align: center;
+	font-family: 'barbie_font_betamediumitalic';
+	color: white;
+	background-image: url('glitter-pink.jpg');
+
+      
+}
+.result{
+    margin: 10px;
+    padding: 5px;
+    width:80vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+	font-family: 'barbie_font_betamediumitalic';
+	color: white;
+      
+}
+.option-container{
+    display: flex;
+    justify-content: space-around; 
+    margin: 10px;
+    padding: 5px;
+	padding-bottom: 50px;
+    width: 80vw;
+    height: 20vh;   
+        
+}
+.option{    
+   padding: 8px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+    color: black;
+    border: solid 2px black;
+	/* background-color: white; */
+	/* border-radius: 25%; */
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow:  5px 5px 3px rgba(0, 0, 0, 0.411);
+}
+.option:hover{
+   background-color: rgb(252, 247, 218);
+   color: pink;
+}
+.navigation{
+    width: 80vw;
+    height: 10vh;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+  
+.evaluate,.next{
+    width:30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size: 30pt;
+	font-family: 'barbie_font_betamediumitalic';
+}
+.evaluate{
+    color: pink;
+    background-image: url('glitter-pink.jpg');
+}
+.next{
+	color: white;
+    background-image: url('glitter-pink.jpg');
+}
